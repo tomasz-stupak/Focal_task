@@ -27,10 +27,11 @@ Included in requirements.txt:
 - PDF Text Consistency: Ensure the content of PDFs is identical.
 
 ## Future improvements:
-- Enhance validation rules so it covers a broader range of checks (e.g. data formatting, value ranges, field dependencies).
+- Enhance validation rules so they cover a broader range of checks (e.g. data formatting, value ranges, field dependencies).
 - Parametrization which allows the tests to run on different datasets by using env variables or config files.
 - Integrate tests into CI/CD for automated regression checks.
 - Add logging and more detailed reporting for better visibility.
 - Add deeper content verification within PDFs and extend the comparison to include visual differences to ensure minor formatting changes or layout issues are also detected.
 - Implement historical analysis to track regression trends.
 - Create a dashboard for real-time monitoring.
+- Enhance BDD with pytest-bdd.
